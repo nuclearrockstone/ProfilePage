@@ -168,7 +168,8 @@ footer a{
     }
     .profile {
         flex-direction: column;
-        width:100%
+        width:100%;
+        align-items: start;
     }
     .profile_intro{
         width:100%
@@ -188,9 +189,14 @@ footer a{
     }
 
     .profile_pic {
-        margin: 10% auto 20px;
+        margin: 10% 0;
         order: -1; /* This will move the profile_pic above the intro */
+    }
 
+    .profile_pic img {
+        height: 100px;
+        width: 100px;
+        margin-left: 0; 
     }
     .responsive_break {
         display: block;
